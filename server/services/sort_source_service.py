@@ -1,11 +1,11 @@
 from typing import List
-from sentence_transformers import SEntenceTransformer
+from sentence_transformers import SentenceTransformer
 import numpy as np
 
 
 class SortSourceService:
     def __init__(self):
-        self.embedding_model = SEntenceTransformer("ll-miniLM-L6-v2")
+        self.embedding_model = SentenceTransformer("ll-miniLM-L6-v2")
 
     def sort_sources(self, query:str, search_results : List[dict]):
         try:
