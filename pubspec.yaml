@@ -37,7 +37,7 @@ dependencies:
   sidebarx: ^0.17.1
   flutter_markdown: ^0.7.7
   web_socket_client: ^0.2.0
-  skeletonizer: ^1.4.3
+  skeletonizer: ^2.0.1
   google_fonts: ^6.2.1
 
 dev_dependencies:

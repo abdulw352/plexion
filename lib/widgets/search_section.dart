@@ -50,6 +50,9 @@ class _SearchSectionState extends State<SearchSection> {
             children: [
               Padding(padding: const EdgeInsets.all(16.0),
               child: TextField(
+                style: TextStyle(
+                  color: Colors.white
+                ),
                 controller: queryController,
                 decoration: InputDecoration(
                   hintText: "Search ...",
@@ -57,6 +60,7 @@ class _SearchSectionState extends State<SearchSection> {
                     color: AppColors.textGrey,
                     fontSize: 16
                   ),
+                  
                   border: InputBorder.none,
                   isDense: true,
                   contentPadding: EdgeInsets.zero,
